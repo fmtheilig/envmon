@@ -1,0 +1,10 @@
+/var/log/envmon.log
+{
+    rotate 9
+    weekly
+    missingok
+    notifempty
+    compress
+    delaycompress
+    endscript
+}
